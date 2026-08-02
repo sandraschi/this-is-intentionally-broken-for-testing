@@ -1,0 +1,13 @@
+{
+  "manifest_version": "0.2",
+  "name": "bakemono-runter",
+  "version": "0.0.1",
+  "description": "",
+  "author": { "name": "???" },
+  "server": {
+    "type": "python",
+    "entry_point": "src/bakemono_runter/main.py",
+    "mcp_config": { "command": "python", "args": ["-m", "not_a_real_module"] }
+  },
+  "tools": []
+}

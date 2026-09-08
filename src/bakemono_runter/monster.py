@@ -27,7 +27,7 @@ def line_too_long_function():
 def bad_except():
     try:
         x = 1 / 0
-    except:
+    except Exception:
         pass
 
 
